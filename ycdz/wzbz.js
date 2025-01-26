@@ -27,5 +27,5 @@ hostname = bzpp2.iwzbz.com
 var body = $response.body.replace(/vipLevel": 0/g,'vipLevel": 3')
 .replace(/expires": "1970-01-01 00:00:00"/g,'expires": "2099-01-01 00:00:00"')
 .replace(/vipTipsType": -1/g,'vipTipsType": 0')
-.replace(/show_vip_func": 0/g,'show_vip_func: 1')
+.replace(/show_vip_func": 0/g,'show_vip_func": 1')
 $done({ body });
